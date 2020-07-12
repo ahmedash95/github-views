@@ -1,0 +1,5 @@
+{
+    "require": {
+        "meyfa/php-svg": "^0.10.0"
+    }
+}
