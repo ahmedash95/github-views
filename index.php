@@ -38,6 +38,6 @@ $text->setSize($fontSize);
 $text->setAttribute('fill', 'white');
 $doc->addChild($text);
 
-header("Cache-Control: no-cache, must-revalidate");
+header("Cache-Control: max-age=0, no-cache, private");
 header('Content-Type: image/svg+xml');
 echo $image;
